@@ -70,6 +70,19 @@ Ya con las impedancias equivalentes, ya sea impedancia equivalente de los capaci
 
 Para la corriente que pasas por la resistencia, debemos usar la ley de Ohm, en el circuito, con esto hallaremos fácilmente los datos pedidos en la guía, y finalmente se procede a registrarlos en una tabla.
 
+A continuación se muestran ejemplos de los calculos realizados
+
+Circuito con capacitancias
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/151310566_3660487634047739_3308345750771460283_n.jpg?_nc_cat=111&ccb=3&_nc_sid=730e14&_nc_eui2=AeFqegkGbPSZ418MrVqRT8RB-2uSfimRIED7a5J-KZEgQNr0oKMhgRMb57f7YMl03T13hNmBrHPAfTV1LRaOMWFF&_nc_ohc=AA6DmCdM5akAX_H5h2C&_nc_ht=scontent.fuio16-1.fna&oh=451040be4c9f16529642e992f32a0a61&oe=6059BED3)
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/151666982_3660487640714405_1838181691299605500_n.jpg?_nc_cat=107&ccb=3&_nc_sid=730e14&_nc_eui2=AeFicYj7Byd0E4g7ynLX7-VybZObbZvlf9ptk5ttm-V_2td5nBXvz4K49Nv7fIB-pA3wH4Ym13pq11NHOxs1t1Qq&_nc_ohc=Qi5jOvh-BysAX-Dzjrk&_nc_ht=scontent.fuio16-1.fna&oh=8cc8a5d6fca454452aec306a144d5fd5&oe=6058FDBA)
+
+Circuito con inductancias
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/152064468_3660487647381071_7079699130832948635_n.jpg?_nc_cat=102&ccb=3&_nc_sid=730e14&_nc_eui2=AeHgnl26P0THJHak4l0OWzuUavgU8tLUButq-BTy0tQG62KI82uPIlhWcDCONSNIcCnRcH8PR2NRoR8Set39Md4d&_nc_ohc=g7i1vMCd2BUAX8Nt0BJ&_nc_ht=scontent.fuio16-1.fna&oh=e4875de1ecbb37c50e7ff8b51bfaffd7&oe=6059AA81)
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/151580881_3660487627381073_4612224209894149240_n.jpg?_nc_cat=104&ccb=3&_nc_sid=730e14&_nc_eui2=AeGmhowshAZ49yozC1h3Jv-ryZTGUViq_aLJlMZRWKr9oqcuCdH06AM62qiPVm7oJYYtBrfvlXvweP-oniHiSJ4F&_nc_ohc=GGJCHL7PJhUAX9lvdoH&_nc_ht=scontent.fuio16-1.fna&oh=68b10296f1966198de61aa7acfa23933&oe=605A5025)
+
+
 ## 6. Descripción de prerrequisitos y configuración
 
 Antes de embarcarnos en la realización de esta práctica, se debe tener bien claros los conocimientos acerca de fasores y cálculos con números complejos, a fin de que realicemos la practica sin ningún problema, y con la mayor seguridad posible, está por demás decir que se deben tener en cuenta las leyes fundamentales de circuitos eléctricos.
