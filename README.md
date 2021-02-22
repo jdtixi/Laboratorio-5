@@ -87,12 +87,18 @@ Circuito con inductancias
 1.- Justifique los errores cometidos en las mediciones.
 
 Errores el el circuito con capacitores
+
+
 ![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/151587619_3660690754027427_2264586706100497881_n.jpg?_nc_cat=106&ccb=3&_nc_sid=730e14&_nc_eui2=AeHQ2x8QykTsP04yjK9u6tEvP2bI1am9XhY_ZsjVqb1eFmXPtBOMcALIasi0wp2hmfQqfgnCTaiySpVyHegTAZBr&_nc_ohc=F9ZwbuDwAiUAX__YdOz&_nc_ht=scontent.fuio16-1.fna&oh=2bec524be2c0f28d72426e05b6336751&oe=605B5345)
+
+
 ![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/152234958_3660690760694093_6742610010448836183_n.jpg?_nc_cat=106&ccb=3&_nc_sid=730e14&_nc_eui2=AeHu_E2NMFfSQOnZearADYu_hJDZGcL_LZaEkNkZwv8tlhOEqXzbmt5dP54EtggHUISs1eTv7wpFoiTQgrqSCd_d&_nc_ohc=SeOneW9i14sAX-1xWej&_nc_ht=scontent.fuio16-1.fna&oh=cb4c14f5ca8c96f41d1607c347d74c94&oe=605A04BD)
 
 Errores en circuitos con inductores
 
 ![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/151265704_3660690774027425_1745091421798886711_n.jpg?_nc_cat=104&ccb=3&_nc_sid=730e14&_nc_eui2=AeEqhHoJ5N1Lpul-kDZPSz-xg3LwZHw0j-eDcvBkfDSP5-rSEPS5DbWV4ypaTdH7SXDzTHjwYRZThe2W5gkMf52X&_nc_ohc=-mHgDeHeKPAAX_1qvvU&_nc_ht=scontent.fuio16-1.fna&oh=12091d48e401dceda318eb780895278c&oe=605AA2B7)
+
+
 **2.- ¿Cómo se comportan la bobina y el capacitor en corriente continua (cero Hz)?**
 
 El capacitor se comporta como circuito abierto y la bobina como un cortocircuito
