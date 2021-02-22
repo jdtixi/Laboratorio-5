@@ -83,6 +83,33 @@ Circuito con inductancias
 ![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/151580881_3660487627381073_4612224209894149240_n.jpg?_nc_cat=104&ccb=3&_nc_sid=730e14&_nc_eui2=AeGmhowshAZ49yozC1h3Jv-ryZTGUViq_aLJlMZRWKr9oqcuCdH06AM62qiPVm7oJYYtBrfvlXvweP-oniHiSJ4F&_nc_ohc=GGJCHL7PJhUAX9lvdoH&_nc_ht=scontent.fuio16-1.fna&oh=68b10296f1966198de61aa7acfa23933&oe=605A5025)
 
 
+**Preguntas**
+1.- Justifique los errores cometidos en las mediciones.
+
+Errores el el circuito con capacitores
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/151587619_3660690754027427_2264586706100497881_n.jpg?_nc_cat=106&ccb=3&_nc_sid=730e14&_nc_eui2=AeHQ2x8QykTsP04yjK9u6tEvP2bI1am9XhY_ZsjVqb1eFmXPtBOMcALIasi0wp2hmfQqfgnCTaiySpVyHegTAZBr&_nc_ohc=F9ZwbuDwAiUAX__YdOz&_nc_ht=scontent.fuio16-1.fna&oh=2bec524be2c0f28d72426e05b6336751&oe=605B5345)
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/152234958_3660690760694093_6742610010448836183_n.jpg?_nc_cat=106&ccb=3&_nc_sid=730e14&_nc_eui2=AeHu_E2NMFfSQOnZearADYu_hJDZGcL_LZaEkNkZwv8tlhOEqXzbmt5dP54EtggHUISs1eTv7wpFoiTQgrqSCd_d&_nc_ohc=SeOneW9i14sAX-1xWej&_nc_ht=scontent.fuio16-1.fna&oh=cb4c14f5ca8c96f41d1607c347d74c94&oe=605A04BD)
+
+Errores en circuitos con inductores
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/151265704_3660690774027425_1745091421798886711_n.jpg?_nc_cat=104&ccb=3&_nc_sid=730e14&_nc_eui2=AeEqhHoJ5N1Lpul-kDZPSz-xg3LwZHw0j-eDcvBkfDSP5-rSEPS5DbWV4ypaTdH7SXDzTHjwYRZThe2W5gkMf52X&_nc_ohc=-mHgDeHeKPAAX_1qvvU&_nc_ht=scontent.fuio16-1.fna&oh=12091d48e401dceda318eb780895278c&oe=605AA2B7)
+**2.- ¿Cómo se comportan la bobina y el capacitor en corriente continua (cero Hz)?**
+
+El capacitor se comporta como circuito abierto y la bobina como un cortocircuito
+
+**3.- ¿Cómo se comportan la bobina y el capacitor en corriente alterna?**
+
+La bobina almacena corriente, mientras que el capacitor almacena voltaje.
+
+**4.- ¿Qué cree usted que ocurriría con el voltaje Vo y la corriente de la resistencia en los circuitos analizados en esta práctica, si se utilizan dos bobinas o dos capacitores de valores distintos?**
+
+Ocurriría lo mismo que se observó en la práctica, claramente con otras magnitudes, pero en esencia el mismo comportamiento, ya que solo se obtendría otro valor de impedancia equivalente, el procedimiento sería igual:
+
+**5.- ¿Qué son los valores eficaces de voltaje y corriente?**
+
+El valor eficaz es el equivalente en DC del valor pico en la corriente alterna, esto se obtiene dividiendo el valor pico por la raíz de 2.
+
+
 ## 6. Descripción de prerrequisitos y configuración
 
 Antes de embarcarnos en la realización de esta práctica, se debe tener bien claros los conocimientos acerca de fasores y cálculos con números complejos, a fin de que realicemos la practica sin ningún problema, y con la mayor seguridad posible, está por demás decir que se deben tener en cuenta las leyes fundamentales de circuitos eléctricos.
