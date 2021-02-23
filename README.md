@@ -37,7 +37,46 @@ Uno de los conceptos más importantes dentro de la formación educativa de los i
 ## 3. Definiciones Básicas
 
 
+3.1. Inductor
 
+El inductor también llamado bobina es un componente pasivo y lineales hechos de un alambre aislado que por su forma en espiras de alambre arrollados puede almacenar energía en forma de campo magnético, por el fenómeno llamado autoinducción. El inductor es diferente del condensador / capacitor, que almacena energía en forma de campo eléctrico.
+
+El funcionamiento cuando circula una corriente por las espiras, se induce un campo magnético que atraviesa el cilindro helicoidal en su longitud, y también en el exterior del solenoide a esto lo conocemos como la ley de Faraday. La capacidad inductiva de una bobina se puede medir a través de un parámetro propio de la misma llamado autoinductancia, o sencillamente inductancia. Cuando una bobina interactúa magnéticamente con otras, se produce un fenómeno llamado inductancia mutua, para tener en cuenta en algunos circuitos.
+
+![](https://scontent.fuio3-1.fna.fbcdn.net/v/t1.0-9/153730511_259630532402678_4750070169965138605_n.jpg?_nc_cat=106&ccb=3&_nc_sid=730e14&_nc_ohc=_FDfXSIhIjAAX9jrFIl&_nc_ht=scontent.fuio3-1.fna&oh=974e284c09cd1f66d892ff4f3ab2abbc&oe=605ACFAD)
+
+En corriente continua, lo que mas se puede aprovechar de los inductores es la capacidad magnética en cambien en corriente alterna y en regímenes de señales eléctricas variables se aprovecha el comportamiento que tiene el inductor como variador de la señal eléctrica en el tiempo. 
+
+Entre los usos de los inductores tenemos:
+
+![](https://scontent.fuio3-1.fna.fbcdn.net/v/t1.0-9/153278733_259630639069334_6809381062094529270_n.jpg?_nc_cat=102&ccb=3&_nc_sid=730e14&_nc_ohc=vAXTyoMYcg0AX-m9HD2&_nc_ht=scontent.fuio3-1.fna&oh=0435f264b5130da08babbfdef621b3e0&oe=605A8F11)
+
+Los inductores también pueden ser tipo fijo o variable, la simbología de éstos se presenta en la siguientes Figuras:
+
+![](https://scontent.fuio3-1.fna.fbcdn.net/v/t1.0-9/153467957_259630702402661_4637619604651231454_n.jpg?_nc_cat=102&ccb=3&_nc_sid=730e14&_nc_ohc=ndndcWYOUnwAX-iFhhs&_nc_ht=scontent.fuio3-1.fna&oh=ce725f8147f7f5bed69cbc0b7d9ca31b&oe=60586941)
+
+Desde el punto de vista del diseño de circuitos, es importante observar que no es sencillo fabricar inductores sobre una pastilla de circuito integrado y, por lo tanto, los diseños de estos circuitos generalmente emplean sólo dispositivos electrónicos activos, resistores y capacitores, todos los cuales pueden fabricarse fácilmente en forma de microcircuitos.
+
+3.2. Capacitor 
+
+Un capacitor también llamado condensador es un componente eléctrico de dos terminales. Junto con las resistencias y los inductores son unos de los componentes pasivos fundamentales. Cuesta encontrar un circuito que no tenga un capacitor. Lo que debemos recordar de un capacitor es su habilidad para almacenar energía una de las analogías más comunes para describirlos es similar a una batería cargada. Los capacitores tienen todo tipo de aplicaciones críticas en los circuitos. Las aplicaciones más comunes son almacenamiento de energía, suprimir las alzas de voltaje, y filtrar las señales complejas.
+
+Uno de los limitantes de los capacitores son la poca energía que pueden almacenar, por lo cual son utilizados principalmente para filtrar la señal. Si tenemos una señal eléctrica donde su voltaje oscila, cuando el voltaje caiga, el condensador sera el encargado de suministrar el voltaje para mantenerlo constante y estable, como vemos en la imagen aquí debajo.
+
+![](https://scontent.fuio3-1.fna.fbcdn.net/v/t1.0-9/153837051_259630755735989_75866204942986274_n.jpg?_nc_cat=101&ccb=3&_nc_sid=730e14&_nc_ohc=dIeLZXaA-K4AX9tEHCB&_nc_ht=scontent.fuio3-1.fna&oh=b16110eec294f11906aa0a3afabd4af9&oe=605A1082)
+
+La capacitancia es la relación entre la carga eléctrica en una placa de un capacitor y la diferencia de tensión entre las dos placas, su valor depende de las dimensiones físicas del capacitor y de la permitividad del material dieléctrico con el que está construido.
+
+La manera en la que funcionan los capacitores es la corriente eléctrica es el flujo de la carga eléctrica, y esto es lo que los componentes utilizan para encenderse, o girar, o hacer cualquier otra acción. Cuando la corriente fluye por un capacitor, las cargas se “pegan” en las placas porque no pueden atravesar el material dieléctrico aislante. Los electrones (partículas cargadas negativamente) son pegados a una de las placas, y esta se carga negativamente. La gran masa de las cargas negativas de una de las placas empuja las cargas iguales de la otra placa, haciendo que esta otra placa sea de carga positiva.
+
+![](https://scontent.fuio3-1.fna.fbcdn.net/v/t1.0-9/153276420_259630839069314_8304844838336847795_n.jpg?_nc_cat=104&ccb=3&_nc_sid=730e14&_nc_ohc=5S3e0m358lQAX98DIAW&_nc_ht=scontent.fuio3-1.fna&oh=4ec8da87785c3f3e2fe0a49dec1d52a5&oe=60596C56)
+
+Las cargas positivas y negativas en cada una de las placas se atraen, porque eso es lo que hacen cargas opuestas. Pero, con el material dieléctrico aun entre ellos, por más que se quieran atraer, las cargas van a estar pegadas a las placas por siempre o hasta que tengan otro lugar para ir. Las cargas estacionarias de estas placas crean un campo eléctrico, el cual induce energía eléctrica potencial y voltaje. Cuando las cargas se agrupan en un capacitor de esta forma, el capacitor esta almacenando energía de igual manera que una batería almacena energía química.
+
+![](https://scontent.fuio3-1.fna.fbcdn.net/v/t1.0-9/154067412_259630909069307_6166331392357802351_n.jpg?_nc_cat=102&ccb=3&_nc_sid=730e14&_nc_ohc=5nJRe6r29x4AX_qmTU-&_nc_ht=scontent.fuio3-1.fna&oh=ebfde87d2b7d1bef9035ab2bd904ed27&oe=605B019B)
+
+Podemos decir que básicamente los condensadores están en todos los circuitos eléctricos. Si nos ponemos a pensar en nuestro hogar vamos a encontrar condensadores tanto en el control remoto del televisor como en el lavarropas.
+En las industrias los condensadores son utilizado para compensar la energía reactiva. La energía reactiva es energía que es penalizada por la empresa suministradora de energía eléctrica. Es por eso por lo que almacenándola en capacitores se compensa esa carga reactiva favoreciendo a la industria de no ser penalizada y a la empresa de suministro de energía eléctrica.
 
 ## 4. Lista de componentes
 
