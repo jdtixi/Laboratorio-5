@@ -30,6 +30,15 @@ Estudiar y analizar el concepto propio de un capacitor y el de una bobina (induc
 
 - Comprender el uso de cada uno instrumentos de medición para AC
 
+## 2. Marco Teórico
+
+Uno de los conceptos más importantes dentro de la formación educativa de los ingenieros electrónicos es el conocimiento básico sobre inductores y capacitores pues supone uno de los temas que más aplicabilidad tendrá durante la formación y practica profesional de los estudiantes.  
+
+## 3. Definiciones Básicas
+
+
+
+
 ## 4. Lista de componentes
 
 Para la presente práctica de laboratorio, tenemos que tener listos los iguientes materiales.
