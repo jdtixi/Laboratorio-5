@@ -34,7 +34,7 @@ Estudiar y analizar el concepto propio de un capacitor y el de una bobina (induc
 
 Uno de los conceptos más importantes dentro de la formación educativa de los ingenieros electrónicos es el conocimiento básico sobre inductores y capacitores pues supone uno de los temas que más aplicabilidad tendrá durante la formación y practica profesional de los estudiantes.  
 
-## 3. Definiciones Básicas
+## 3. Marco Teórico - Definiciones Básicas
 
 
 3.1. Inductor
@@ -77,6 +77,39 @@ Las cargas positivas y negativas en cada una de las placas se atraen, porque eso
 
 Podemos decir que básicamente los condensadores están en todos los circuitos eléctricos. Si nos ponemos a pensar en nuestro hogar vamos a encontrar condensadores tanto en el control remoto del televisor como en el lavarropas.
 En las industrias los condensadores son utilizado para compensar la energía reactiva. La energía reactiva es energía que es penalizada por la empresa suministradora de energía eléctrica. Es por eso por lo que almacenándola en capacitores se compensa esa carga reactiva favoreciendo a la industria de no ser penalizada y a la empresa de suministro de energía eléctrica.
+
+3.3. Osciloscopio 
+Un osciloscopio es un instrumento de medición para la electrónica. Representa una gráfica de amplitud en el eje vertical y tiempo en el eje horizontal. Es muy usado por estudiantes, diseñadores, ingenieros en el campo de la electrónica. Frecuentemente se complementa con un multímetro, una fuente de alimentación y un generador de funciones o arbitrario. Es muy usado en electrónica de señal, frecuentemente junto a un analizador de espectro. Presenta los valores de las señales eléctricas en forma de coordenadas en una pantalla, en la que normalmente el eje X (horizontal) representa tiempos y el eje Y (vertical) representa tensiones. La imagen así obtenida se denomina oscilograma. Suelen incluir otra entrada, llamada "eje Z" o "Cilindro de Wehnelt" que controla la luminosidad del haz, permitiendo resaltar o apagar algunos segmentos de la traza.
+Actualmente los osciloscopios analógicos están siendo desplazados en gran medida por los osciloscopios digitales, uno de los principales problemas a vencer era la velocidad de conversión, ya que se recomienda digitalizar una señal a una frecuencia 10 veces más de la que se requiere medir, esto es si tenemos una señal de 20MHz, debemos tener un equipo capaz de obtener datos a 200M muestras por segundo
+Los osciloscopios digitales también brindan ciertas ventajas en contra de los análogos:
+-	Medida automática de valores de pico, máximos y mínimos de señal. Verdadero valor eficaz.
+-	Medida de flancos de la señal y otros intervalos.
+-	Captura de transitorios.
+-	Cálculos avanzados, como la FFT para calcular el espectro de la señal. también sirve para medir señales de tensión.
+
+![](https://scontent.fuio2-1.fna.fbcdn.net/v/t1.0-9/154154884_260118452353886_300542770372390516_n.jpg?_nc_cat=101&ccb=3&_nc_sid=730e14&_nc_ohc=Oj0_igJ8wGoAX9a2mxX&_nc_ht=scontent.fuio2-1.fna&oh=1a4fd9a41ad7103b848ef17a926e30fd&oe=605C17C8)
+
+La pantalla del osciloscopio está dividida en escalas horizontal y vertical. El tiempo se muestra de izquierda a derecha en la escala horizontal. Mientras que, el voltaje se muestra empezando en cero al centro de la pantalla en la escala vertical, con valores positivos hacia arriba, y valores negativos hacia abajo.
+
+![](https://scontent.fuio2-1.fna.fbcdn.net/v/t1.0-9/154376192_260118445687220_1578826236337799049_n.jpg?_nc_cat=110&ccb=3&_nc_sid=730e14&_nc_ohc=wWcksbAf3S4AX-NaR8J&_nc_oc=AQnmkaVjOCQU2I-_IVCSi9kGoju2D_c-0DozHgw6EWt3PaOLMjqBBfkEISQfK_tzn-GThZqyHZAi_RJduJyVjcBi&_nc_ht=scontent.fuio2-1.fna&oh=9bca184ce683ea9372f92671ca724524&oe=6059BFE7)
+
+En un osciloscopio existen, básicamente, dos tipos de controles que son utilizados como reguladores que ajustan la señal de entrada y permiten, consecuentemente, medir en la pantalla y de esta manera se puede ver la forma de la señal medida por el osciloscopio, esto denominado en forma técnica se puede decir que el osciloscopio sirve para observar la señal que quiera medir.
+Para medir se lo puede comparar con el plano cartesiano.
+El primer control regula el eje X (horizontal) y aprecia fracciones de tiempo segundos, milisegundos, microsegundos, según la resolución del aparato. El segundo regula el eje Y (vertical) controlando la tensión de entrada en Voltios, milivoltios, microvoltios, dependiendo de la resolución del aparato.
+Estas regulaciones determinan el valor de la escala cuadricular que divide la pantalla, permitiendo saber cuánto representa cada cuadrado de ésta para, en consecuencia, conocer el valor de la señal a medir, tanto en tensión como en frecuencia, en realidad se mide el periodo de una onda de una señal, y luego se calcula la frecuencia.
+
+3.4. Valor RMS
+ Definimos RMS como el Valor Eficaz y TRMS (True RMS) como el Verdadero Valor Eficaz de las medidas eléctricas. Los instrumentos con TRMS son mucho más precisos que los RMS midiendo corriente alterna. Por eso, todos los multímetros suministrados por PROMAX tienen capacidad de medida True RMS.
+Es necesaria la medida RMS o TRUE RMS porque la tensión de una onda senoidal varía en el tiempo y por tanto no es igual a la tensión que alcanzan sus picos. El valor eficaz de la tensión de una señal alterna es su equivalencia en forma de tensión continua y solo se puede calcular con instrumentos de medida RMS o True RMS.
+
+
+![](https://scontent.fuio2-1.fna.fbcdn.net/v/t1.0-9/153867222_260118425687222_7159279703246956321_n.jpg?_nc_cat=101&ccb=3&_nc_sid=730e14&_nc_ohc=bniCpuryKq4AX9Y29wR&_nc_ht=scontent.fuio2-1.fna&oh=8d58f2711183e2d247cef6dbabf05973&oe=605B1C5A)
+
+Aunque a efectos prácticos lo definimos como el Valor Eficaz, RMS en realidad corresponde a las siglas en inglés de Root Mean Square (Raíz de la Media de los Cuadrados), en referencia a la fórmula matemática que se utiliza para medir este valor. Una fórmula que el instrumento simplifica para tener en cuenta solo el valor del pico positivo de la señal sinusoidal:
+
+![](https://scontent.fuio2-1.fna.fbcdn.net/v/t1.0-9/153930109_260118482353883_6527690573448469802_n.jpg?_nc_cat=107&ccb=3&_nc_sid=730e14&_nc_ohc=AzaJ2rCBgzUAX-KnaH7&_nc_ht=scontent.fuio2-1.fna&oh=0fc10329cfc4ee99ba6d900572e385fa&oe=605AEDE2)
+
+La medida RMS es fiable cuando la onda sinusoidal es perfecta, porque esta medida solo tiene en cuenta el valor de pico de la forma de onda. Las medidas RMS no se pueden considerar fiables porque hoy en día cualquier instalación eléctrica tiene múltiples fuentes de parásitos que provocan que la forma de onda de la corriente alterna nunca sea perfecta.
 
 ## 4. Lista de componentes
 
@@ -189,7 +222,9 @@ Y por último logramos entender cómo funciona un osciloscopio y como se debe ob
 
 ## 8.  Bibliografía
 
-
+Alexander, S. M. (2006). Fundamento de Circuitos Eléctricos (Vol. 3ra Edición). The McGraw-Hill Companies Inc. Recuperado el 12 de Diciembre de 2020
+Alexander C. K, Sadiku M. N. Fundamentos de Circuitos Eléctricos. 3ra ed. McGraw-Hill. 2006.
+ Boylestad R. L. Introducción al análisis de circuitos. 10ma ed. Pearson Educación,2004.
 
 ## 9. Anexos
 
